@@ -1,0 +1,64 @@
+Command 1 takes: 6.0ms
+
+Command 2 takes 1.0ms 	Price of Glassis $30.2
+
+Command 4 takes: 1.0ms 	Deleted: Glass
+
+Command 3 takes: 0.0ms 	Sunroof Price was changed to 30.0
+
+Command 5 takes: 0.0ms 	Profit: $ 12556.98
+
+Command 5 takes: 1.0ms 	Profit: $ 12556.98
+
+Command 5 takes: 3.0ms 	Profit: $ 12556.98
+
+Command 1 takes: 5.0ms
+
+Command 1 takes: 33.0ms
+
+Command 5 takes: 2.0ms 	Profit: $ 12556.98
+
+Command 1 takes: 7.0ms
+
+Command 1 takes: 5.0ms
+
+Command 3 takes: 0.0ms 	Muffler Price was changed to 30.0
+
+Command 1 takes: 5.0ms
+
+Command 1 takes: 13.0ms
+
+Command 3 takes: 0.0ms 	Brakes Price was changed to 1.0
+
+Command 4 takes: 0.0ms 	Deleted: Brakes
+
+Command 5 takes: 0.0ms 	Profit: $ -4335.52
+
+Command 1 takes: 7.0ms
+
+Command 3 takes: 0.0ms 	Rims Price was changed to 10.0
+
+Command 4 takes: 2.0ms 	Deleted: Rims
+
+Command 3 takes: 0.0ms 	Wheel Price was changed to 34.0
+
+Command 3 takes: 2.0ms 	Wheel Price was changed to 23.0
+
+Command 5 takes: 1.0ms 	Profit: $ -4628.02
+
+Command 1 takes: 5.0ms
+
+Command 1 takes: 7.0ms
+
+Command 2 takes 1.0ms 	Price of Windshield is $320.15
+
+Command 5 takes: 1.0ms 	Profit: $ 12550.08
+
+Command 1 takes: 3.0ms
+
+Command 4 takes: 1.0ms 	Deleted: Windshield
+
+Command 5 takes: 1.0ms 	Profit: $ 11533.68
+
+Command 1 takes: 2.0ms
+

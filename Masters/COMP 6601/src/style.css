@@ -1,0 +1,55 @@
+#layout {
+    -fx-background-image:url('images/back2.jpg ');
+    -fx-background-size:cover;
+    }
+
+#extralayout {
+    -fx-background-image:url("images/back.jpg");
+    -fx-background-size:cover;
+    }
+
+#textinput{
+    -fx-background-color: -fx-text-box-border, gray;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 17 ;
+    -fx-text-decoration-color: white;
+    -fx-border:none;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+#error{
+-fx-text-decoration-color: red;
+}
+
+
+#textinput.text-input {
+    -fx-text-fill: white;
+}
+
+#added.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}
+
+.text-field{
+
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-decoration-color: white;
+    -fx-border:none;
+
+}
+
+.button{
+-fx-text-fill: white;
+-fx-base: #706e6a;
+-fx-wrap-text: true;
+-fx-backgroundRadius: 10;
+}
+

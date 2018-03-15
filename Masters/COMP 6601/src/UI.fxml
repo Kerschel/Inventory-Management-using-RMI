@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:id="layout" prefHeight="417.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client">
+   <children>
+      <TableView fx:id="tableview" layoutX="19.0" layoutY="89.0" prefHeight="297.0" prefWidth="563.0">
+        <columns>
+          <!--<TableColumn fx:id="partImage" prefWidth="96.0" text="Image" />-->
+          <TableColumn fx:id="partName" prefWidth="121.0" text="Name" />
+            <TableColumn fx:id="partCPrice" prefWidth="151.0" text="Cost Price" />
+            <TableColumn fx:id="partSPrice" prefWidth="153.0" text="Selling Price" />
+            <TableColumn fx:id="partQty" prefWidth="136.0" text="Quantity" />
+        </columns>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </TableView>
+      <Button fx:id="search" layoutX="300.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Search" />
+      <Button fx:id="pricechange" layoutX="487.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Change Price" />
+      <Button fx:id="delete" layoutX="410.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Delete" />
+      <Button fx:id="display" layoutX="522.0" layoutY="388.0" mnemonicParsing="false" text="View All" />
+      <TextField fx:id="textinput" layoutX="29.0" layoutY="25.0" prefHeight="25.0" prefWidth="254.0" />
+      <TextField fx:id="changeValue" layoutX="490.0" layoutY="56.0" prefHeight="25.0" prefWidth="91.0" text="\$" />
+      <TextField fx:id="profitValue" layoutX="19.0" layoutY="388.0" />
+      <Button fx:id="profit" layoutX="108.0" layoutY="56.0" mnemonicParsing="false" text="Calculate Profit" />
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="250.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@search.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="error" layoutX="310.0" layoutY="60.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.20476190476190476" startY="0.6571428571428571">
+               <stops>
+                  <Stop color="#ff3300" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="extra" layoutX="284.0" layoutY="388.0" mnemonicParsing="false" text="Add" />
+   </children>
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+</AnchorPane>

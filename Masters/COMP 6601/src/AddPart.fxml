@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:id="extralayout" prefHeight="147.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExtraFeatureController">
+   <children>
+      <TextField fx:id="addCPrice" layoutX="372.0" layoutY="28.0" />
+      <TextField fx:id="addName" layoutX="130.0" layoutY="28.0" />
+      <TextField fx:id="addSPrice" layoutX="130.0" layoutY="72.0" />
+      <TextField fx:id="addQty" layoutX="372.0" layoutY="72.0" />
+      <Button fx:id="Submit" layoutX="264.0" layoutY="115.0" mnemonicParsing="false" text="Submit" />
+      <Label layoutX="69.0" layoutY="32.0" text="Name" />
+      <Label layoutX="311.0" layoutY="32.0" text="Cost Price" />
+      <Label layoutX="53.0" layoutY="77.0" text="Selling Price" />
+      <Label layoutX="315.0" layoutY="76.0" text="Quantity" />
+      <Label fx:id="added" layoutX="254.0" layoutY="6.0" prefHeight="17.0" prefWidth="149.0" />
+   </children>
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+</AnchorPane>
